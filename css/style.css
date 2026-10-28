@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    box-sizing: border-box;
+}
+
+
+.hero {
+    height: 716px;
+    background-image: url('//images/backgrd.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px; 
+    
+}
+
+.hero-box {
+    background-color: #FFF3E3;
+    padding: 50px 40px;
+    width: 500px;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.hero-box h1 {
+    font-size: 42px;
+    color: #B8860B;
+    margin: 15px 0;
+    line-height: 1.2;
+}
+
+.hero-box p {
+    font-size: 15px;
+    color: #666;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #B8860B;
+    color: #fff;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #996f08;
+}
