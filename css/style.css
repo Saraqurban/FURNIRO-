@@ -192,7 +192,7 @@ margin-top: 16px;
     font-weight: 400;
     color: #B0B0B0;
     text-decoration: line-through;
-    margin-left: 16px;
+    margin-left: 10px;
 }
 
 .show-more-container {
@@ -231,6 +231,8 @@ background-size: cover;
 } */
 .designs-img{
     width: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .share-section {
@@ -290,3 +292,57 @@ background-size: cover;
 
 .col-right .gallery-item:nth-child(1) { width: 262px; height: 433px; }
 .col-right .gallery-item:nth-child(2) { width: 262px; height: 242px; }
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+.hero-section {
+    position: relative;
+    height: 300px;
+    background: url("../images/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4); /* Light overlay mimicking the design */
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.hero-content p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.hero-content span {
+    font-weight: 300;
+}
+
