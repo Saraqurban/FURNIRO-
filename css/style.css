@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 100px; 
+    padding-right: 100px;    
     
 }
 
@@ -217,7 +217,7 @@ margin-top: 16px;
 
 .designs{
     background-color:  #FCF8F3;
-background-size: cover;
+    background-size: cover;
     background-position: center;
     display: flex;
     justify-content: flex-end;
@@ -226,9 +226,7 @@ background-size: cover;
     height: 670px;
 
 }
-/* .designs-area{
-    margin: 50px;
-} */
+
 .designs-img{
     width: 100%;
     object-fit: cover;

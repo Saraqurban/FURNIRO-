@@ -5,7 +5,7 @@
     font-family: "poppins";
 }
 .navbar{
-    
+     
     display: flex;
    align-items: center;
    margin: 30px 100px;
@@ -14,8 +14,7 @@
    
 }
 .navbar .nav{
-    align-items: center
-    ;
+    align-items: center ;
     gap: 200px;
 }
 .navbar .nav img{
