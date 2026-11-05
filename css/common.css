@@ -5,13 +5,10 @@
     font-family: "poppins";
 }
 .navbar{
-     
     display: flex;
    align-items: center;
    margin: 30px 100px;
-   
     justify-content: space-between;
-   
 }
 .navbar .nav{
     align-items: center ;
@@ -28,6 +25,7 @@
     display: flex;
    gap: 60px;
 }
+
 .navbar .nav nav ul li{
     list-style-type: none;
     font-family: "poppins";
