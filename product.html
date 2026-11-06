@@ -4,17 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>final project</title>
+  <title> final project </title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/product.css">
-  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/common.css">
 </head>
-
+ 
 <body>
-<<<<<<< HEAD
     <header>
       <div class="navbar">
         <div class="nav">
-          <img src="images/Frame 168.png" />
+          <img src="images/header/Frame 168.png" />
           <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
@@ -26,76 +28,22 @@
         </div>
         <div class="right-bar">
           <div class="bar">
-            <img src="images/Vector.png" alt="" />
-            <img src="images/Vector (1).png" alt="" />
-            <img src="images/Vector (2).png" alt="" />
-            <img src="images/vector(3).png" alt="" />
+            <img src="images/header/Vector.png" alt="" />
+            <img src="images/header/Vector (1).png" alt="" />
+            <img src="images/header/Vector (2).png" alt="" />
+            <img src="images/header/vector(3).png" alt="" />
           </div>
         </div>
       </div>
     </header>
 
-    <section>
-        <div class="shop">
-            <a href="index.html">home</a> 
-            <a href="">shop</a> <b>></b>
-           |<a href="asgaardsofa">Asgaardsofa</a>
-        </div>
-
-    </section>
-    <section>
-        <div class="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <h2>Asgaardsofa</h2>
-
-        </div>
-    </section>
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-col brand-col">
-          <h2 class="footer-logo">Funiro.</h2>
-          <p class="footer-address">
-            400 University Drive Suite 200 Coral Gables,<br />
-            FL 33134 USA
-          </p>
-        </div>
-
-        <div class="footer-col">
-          <h4 class="footer-heading">Links</h4>
-          <ul class="footer-links">
-=======
-  <header>
-    <div class="navbar">
-      <div class="nav">
-        <img src="images/header/Frame 168.png ">
-        <nav>
-          <ul>
->>>>>>> e936752165026c451be6fc6525b7a957817e6679
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="right-bar">
-        <div class="bar">
-          <img src="images/header/Vector.png" alt="">
-          <img src="images/header/Vector (1).png" alt="">
-          <img src="images/header/Vector (2).png" alt="">
-          <img src="images/header/vector(3).png" alt="">
-        </div>
-      </div>
-    </div>
-  </header>
+    
+  
 
   <div class="breadcrumb-bar">
     <div class="breadcrumb-content">
-      <a href="index.html">Home</a> &gt;
-      <a href="shop.html">Shop</a> &gt;
+      <a href="index.html">Home</a> <b>&gt;</b>
+      <a href="shop.html">Shop</a> <b>&gt;</b>
       <span class="divider-line">|</span>
       <span class="current-page">Asgaard sofa</span>
     </div>
@@ -107,20 +55,20 @@
 
       <div class="product-gallery">
         <div class="thumbnail-list">
-          <img src="images/Group 94.png" alt="Thumbnail 1" class="thumb active">
-          <img src="images/Group 98.png" alt="Thumbnail 2" class="thumb">
-          <img src="images/Group 97.png" alt="Thumbnail 3" class="thumb">
-          <img src="images/Group 96.png" alt="Thumbnail 4" class="thumb">
+          <img src="images/Group 94.png" alt="Thumbnail 1" class="thumb active" data-title="Asgaard Sofa" data-price="Rs. 250,000.00" data-sku="SS001" data-desc="Setting the bar as one of the finest items, Asgaard's Kilburn is a compact, stout-armed sofa audio." data-img="images/Group 94.png">
+          <img src="images/Group 98.png" alt="Thumbnail 2" class="thumb" data-title="Syltherine Chair" data-price="Rp 2.500.000" data-sku="SC002" data-desc="Stylish cafe chair designed for modern interiors and cozy spaces." data-img="images/Group 98.png">
+          <img src="images/Group 97.png" alt="Thumbnail 3" class="thumb" data-title="Leviosa Chair" data-price="Rp 2.500.000" data-sku="LC003" data-desc="Minimalist wooden cafe chair with ergonomic seating support." data-img="images/Group 97.png">
+          <img src="images/Group 96.png" alt="Thumbnail 4" class="thumb" data-title="Lolito Luxury Sofa" data-price="Rp 7.000.000" data-sku="LS004" data-desc="Luxury big sofa providing ultimate comfort and grand aesthetics." data-img="images/Group 96.png">
         </div>
         <div class="main-image-wrapper">
-          <img src="images/Group 95.png" alt="Asgaard sofa">
+          <img  id="mainImage" src="images/Group 95.png" alt="Asgaard sofa">
         </div>
       </div>
 
 
       <div class="product-details-info">
-        <h1>Asgaard sofa</h1>
-        <p class="product-price">Rs. 250,000.00</p>
+        <h1 id="productTitle">Asgaard sofa</h1>
+        <p class="product-price" id="productPrice">Rs. 250,000.00</p>
         <div class="product-rating">
           <div class="stars">
             <img src="images/Group 88.png" alt="">
@@ -131,14 +79,14 @@
 
 
 
-        <p class="product-description">
+        <p id="productDesc" class="product-description">
           Setting the bar as one of the finest items, Asgaard's Kilburn is a compact, stout-armed sofa audio which
           boasts a clear and powerful sound.
         </p>
 
 
         <div class="option-group">
-          <span class="option-label">Size</span>
+          <label class="option-label">Size</label>
           <div class="size-options">
             <button class="size-btn active">L</button>
             <button class="size-btn">XL</button>
@@ -148,7 +96,7 @@
 
 
         <div class="option-group">
-          <span class="option-label">Color</span>
+          <label class="option-label">Color</label>
           <div class="color-options">
             <span class="color-circle" style="background-color: #816dff;"></span>
             <span class="color-circle" style="background-color: #000000;"></span>
@@ -159,11 +107,11 @@
 
         <div class="product-actions-row">
           <div class="quantity-selector">
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
+            <button id="decrement">-</button>
+            <span id="quantity">1</span>
+            <button id="increment">+</button>
           </div>
-          <button class="cart-action-btn">Add To Cart</button>
+          <button class="cart-action-btn" id="addToCartBtn">Add To Cart</button>
           <button class="cart-action-btn compare-btn">+ Compare</button>
         </div>
       </div>
@@ -195,6 +143,109 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="product-description-section">
+    <div class="container">
+      <ul class="description-tabs">
+        <li class="tab-item active">Description</li>
+        <li class="tab-item">Additional Information</li>
+        <li class="tab-item">Reviews [5]</li>
+      </ul>
+      <div class="tab-content">
+        <p class="description-text">
+          Embodying the raw, wayward spirit of rock 'n' roll, the Kilburn portable active stereo speaker takes the
+          unmistakable sound of Marshall, unplugs the chords, and takes the show on the road.
+        </p>
+        <p class="description-text">
+          Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar
+          as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced
+          audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The
+          analogue knobs allow you to fine tune the sound to your personal preferences while the guitar-influenced
+          leather strap enables easy and stylish travel.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-grid-section">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="image-wrapper">
+            <img src="images/Group 107.png" alt="Modern White Sectional Sofa" />
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="image-wrapper">
+            <img src="images/Group 106.png" alt="Modern White Chaise Lounge Sofa" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="description-products-section">
+    <div class="description-container">
+      <h2>Related Product</h2>
+      <div class="description-products-grid">
+
+        <div class="description-product-card">
+          <div class="description-product-image">
+            <img src="images/products/syltherine.png" alt="Syltherine">
+            <span class="badge discount">-30%</span>
+          </div>
+          <div class="description-product-info">
+            <h3>Syltherine</h3>
+            <p class="product-category">Stylish cafe chair</p>
+            <p class="product-price">Rp 2.500.000 <span class="old-price">Rp 3.500.000</span></p>
+          </div>
+        </div>
+
+
+        <div class="description-product-card">
+          <div class="description-product-image">
+            <img src="images/products/leviosa.png" alt="Leviosa">
+          </div>
+          <div class="description-product-info">
+            <h3>Leviosa</h3>
+            <p class="product-category">Stylish cafe chair</p>
+            <p class="product-price">Rp 2.500.000</p>
+          </div>
+        </div>
+
+
+        <div class="description-product-card">
+          <div class="description-product-image">
+            <img src="images/products/lolito.png" alt="Lolito">
+            <span class="badge discount">-50%</span>
+          </div>
+          <div class="description-product-info">
+            <h3>Lolito</h3>
+            <p class="product-category">Luxury big sofa</p>
+            <p class="product-price">Rp 7.000.000 <span class="old-price">Rp 14.000.000</span></p>
+          </div>
+        </div>
+
+
+        <div class="description-product-card">
+          <div class="description-product-image">
+            <img src="images/products/respiro.jpg" alt="Respira">
+            <span class="badge new">New</span>
+          </div>
+          <div class="description-product-info">
+            <h3>Respira</h3>
+            <p class="product-category">Outdoor bar table and stool</p>
+            <p class="product-price">Rp 500.000</p>
+          </div>
+        </div>
+
+    
+      </div>
+       <div class="show-more-container">
+          <button class="show-more-btn">Show More</button>
+        </div>
   </section>
 
   <footer class="footer">
@@ -240,6 +291,8 @@
       <p>2023 furino. All rights reverved</p>
     </div>
   </footer>
+
+  <script src="app.js"></script>
 
 </body>
 
